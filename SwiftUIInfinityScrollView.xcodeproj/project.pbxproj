@@ -11,6 +11,12 @@
 		DE54956829C2DB440037559A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE54956729C2DB440037559A /* ContentView.swift */; };
 		DE54956A29C2DB450037559A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE54956929C2DB450037559A /* Assets.xcassets */; };
 		DE54956D29C2DB450037559A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE54956C29C2DB450037559A /* Preview Assets.xcassets */; };
+		DE54957429C2DB570037559A /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE54957329C2DB570037559A /* ContentViewModel.swift */; };
+		DE54957829C2E87A0037559A /* RefreshableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE54957729C2E87A0037559A /* RefreshableScrollView.swift */; };
+		DE54957D29C309C30037559A /* TestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE54957C29C309C30037559A /* TestCell.swift */; };
+		DE779CC729C7EB3500445003 /* PayAppResponsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE779CC629C7EB3500445003 /* PayAppResponsData.swift */; };
+		DE779CC929C7ECF100445003 /* ListData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE779CC829C7ECF100445003 /* ListData.swift */; };
+		DE779CCB29C7ED3900445003 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE779CCA29C7ED3900445003 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		DE54956729C2DB440037559A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DE54956929C2DB450037559A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE54956C29C2DB450037559A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DE54957329C2DB570037559A /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		DE54957729C2E87A0037559A /* RefreshableScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshableScrollView.swift; sourceTree = "<group>"; };
+		DE54957C29C309C30037559A /* TestCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCell.swift; sourceTree = "<group>"; };
+		DE779CC629C7EB3500445003 /* PayAppResponsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayAppResponsData.swift; sourceTree = "<group>"; };
+		DE779CC829C7ECF100445003 /* ListData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListData.swift; sourceTree = "<group>"; };
+		DE779CCA29C7ED3900445003 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +64,15 @@
 			isa = PBXGroup;
 			children = (
 				DE54956529C2DB440037559A /* SwiftUIInfinityScrollViewApp.swift */,
+				DE54957C29C309C30037559A /* TestCell.swift */,
 				DE54956729C2DB440037559A /* ContentView.swift */,
+				DE54957329C2DB570037559A /* ContentViewModel.swift */,
+				DE54957729C2E87A0037559A /* RefreshableScrollView.swift */,
 				DE54956929C2DB450037559A /* Assets.xcassets */,
 				DE54956B29C2DB450037559A /* Preview Content */,
+				DE779CC629C7EB3500445003 /* PayAppResponsData.swift */,
+				DE779CC829C7ECF100445003 /* ListData.swift */,
+				DE779CCA29C7ED3900445003 /* Model.swift */,
 			);
 			path = SwiftUIInfinityScrollView;
 			sourceTree = "<group>";
@@ -138,7 +156,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE54956829C2DB440037559A /* ContentView.swift in Sources */,
+				DE779CC929C7ECF100445003 /* ListData.swift in Sources */,
+				DE54957D29C309C30037559A /* TestCell.swift in Sources */,
+				DE54957829C2E87A0037559A /* RefreshableScrollView.swift in Sources */,
+				DE779CC729C7EB3500445003 /* PayAppResponsData.swift in Sources */,
 				DE54956629C2DB440037559A /* SwiftUIInfinityScrollViewApp.swift in Sources */,
+				DE54957429C2DB570037559A /* ContentViewModel.swift in Sources */,
+				DE779CCB29C7ED3900445003 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
